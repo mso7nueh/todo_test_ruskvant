@@ -13,7 +13,6 @@ class TodoRepository {
     try {
       return await todoService.getTodoList();
     } catch (e) {
-      print(e);
       return [];
     }
   }

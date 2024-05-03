@@ -1,6 +1,5 @@
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
-import 'package:get/get.dart';
 import 'package:todo_test_ruskvant/features/main/models/todo_model.dart';
 import 'package:todo_test_ruskvant/features/main/presentation/getx/todo_controller.dart';
 import 'package:todo_test_ruskvant/locator_service.dart';
