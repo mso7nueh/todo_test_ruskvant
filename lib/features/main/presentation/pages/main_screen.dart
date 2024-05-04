@@ -53,7 +53,7 @@ class _MainScreenState extends State<MainScreen> {
       ),
       floatingActionButton: FloatingActionButton(
         onPressed: goToCreateTaskScreen,
-        tooltip: 'Add task',
+        tooltip: 'Add todo',
         child: const Icon(Icons.add),
       ),
     );

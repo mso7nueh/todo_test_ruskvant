@@ -49,10 +49,6 @@ class _TodoItemWidgetState extends State<TodoItemWidget> {
       subtitle: Text(
         widget.todoModel.id.toString(),
       ),
-      contentPadding: EdgeInsets.zero,
-      horizontalTitleGap: 8,
-      minVerticalPadding: 0,
-      minLeadingWidth: 0,
       trailing: IconButton(
         onPressed: goToEditTaskScreen,
         icon: const Icon(

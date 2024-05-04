@@ -56,7 +56,7 @@ class TodoController extends GetxController with StateMixin<List<TodoModel>> {
     change(todoList, status: RxStatus.success());
   }
 
-  void removeLastTask() {
+  void removeLastTodo() {
     todoList.removeAt(0);
     change(todoList, status: RxStatus.success());
   }

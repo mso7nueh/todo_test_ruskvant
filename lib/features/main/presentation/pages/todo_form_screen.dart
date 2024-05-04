@@ -44,7 +44,7 @@ class _TodoFormScreenState extends State<TodoFormScreen> {
       action: SnackBarAction(
         label: 'Undo',
         onPressed: () {
-          todoController.removeLastTask();
+          todoController.removeLastTodo();
         },
       ),
     ));
@@ -65,7 +65,7 @@ class _TodoFormScreenState extends State<TodoFormScreen> {
     return Scaffold(
       appBar: AppBar(
         backgroundColor: Theme.of(context).colorScheme.inversePrimary,
-        title: Text(widget.todoModel != null ? widget.todoModel!.id.toString() : 'Create task'),
+        title: Text(widget.todoModel != null ? widget.todoModel!.id.toString() : 'Create todo'),
       ),
       body: Padding(
         padding: const EdgeInsets.all(16),
